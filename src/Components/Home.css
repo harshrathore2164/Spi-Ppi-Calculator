@@ -1,0 +1,47 @@
+/* src/components/Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  .calculator-box {
+    max-width: 600px; /* Increased max-width */
+    width: 80%; /* Set a percentage width for responsiveness */
+    padding: 40px; /* Increased padding */
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+  }
+  
+  .calculator-box h2 {
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    padding: 12px 24px;
+    background-color: #28a745; /* Green button */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .button-container button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

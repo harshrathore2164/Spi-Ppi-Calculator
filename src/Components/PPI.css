@@ -1,0 +1,74 @@
+/* src/components/PPI.css */
+
+.ppi-container {
+    max-width: 800px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .ppi-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .ppi-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .semesters-container {
+    margin-top: 20px;
+  }
+  
+  .semester-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .semester-inputs span {
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .semester-inputs input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100px; /* Adjust width as needed */
+  }
+  
+  .calculate-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculate-button:hover {
+    background-color: #45a049;
+  }
+  
+  .ppi-result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+  }
+  

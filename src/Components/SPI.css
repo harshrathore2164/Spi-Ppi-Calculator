@@ -1,0 +1,82 @@
+/* src/components/SPI.css */
+
+.spi-container {
+  max-width: 800px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.spi-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.spi-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.subjects-container {
+  margin-top: 20px;
+}
+
+.subject-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.subject-inputs span {
+  width: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subject-inputs select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+  width: 150px; /* Adjust width as needed */
+}
+
+.subject-inputs input[type="number"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100px; /* Adjust width as needed */
+}
+
+.calculate-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-button:hover {
+  background-color: #45a049;
+}
+
+.spi-result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f2f2f2;
+}
